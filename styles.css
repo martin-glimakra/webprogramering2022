@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(176, 192, 176);
+}
+
+a {
+    cursor:pointer;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+.header {
+    background-color: green;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    width: 150px;
+}
+
+.menu-container {
+    margin-right: 40px;
+}
+
+.menu-container li {
+    display: inline;
+}
+
+.wrapper {
+    background-color: red;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.landing-section-1 {
+    background-color: blueviolet;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.hero-image-container {
+    width: 600px;
+}
+
+.landing-section-2 {
+    background-color: green;
+    min-height: 60px;
+    display: flex;
+}
+
+.landing-image-container {
+    background-color: brown;
+    flex: 1;
+    /* display: none; */
+    }
+
+.landing-image {
+    padding: 15px;
+    }
+
+.landing-text-container {
+    background-color: rgb(146, 146, 219);
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    }
+
+.landing-section-3 {
+    background-color: blue;
+    min-height: 60px;
+    display: flex;
+}
+
+.landing-section-4 {
+    background-color:salmon;
+    min-height: 60px;
+}
+
+.footer {
+    background-color: cadetblue;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    background-color: aquamarine;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#more-information {
+    display: none;
+    min-height: 100px;
+    background-color: sandybrown;
+}
+
+#fruit-info {
+    display: none;
+}
+
+#vegetables-info {
+    display: none;
+}
+
+#nuts-info {
+    display: none;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
